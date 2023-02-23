@@ -21,7 +21,7 @@ void loop()
 
 digitalWrite(trigPin, LOW);
 
-delayMicroseconds(2);
+delayMicroseconds(3);
 
 digitalWrite(trigPin, HIGH);
 
@@ -49,6 +49,6 @@ Serial.print(distance);
 
 Serial.println(" cm");
 
-delay(500);
+delay(1000);
 
 }
